@@ -1,0 +1,46 @@
+#sub{
+    background-color: red;
+    color: white;
+    height: 50px;
+    width: 170px;
+    border:none;
+    margin-right: 8px ;
+    transition: opacity 1s,border-radius 0.5s;
+
+}
+#sub:hover{
+    opacity:0.6;
+    border-radius: 15px;
+}
+#sub:active{
+    opacity:0.5;
+}
+#tweet{
+    background-color: rgb(43, 43, 255);
+    color: white;
+    margin-left: 8px;
+    border-radius:30px;
+    height: 50px;
+    width: 150px;
+}
+#tweet:hover{
+    box-shadow:2px 5px 10px rgb(227, 223, 223);
+}
+#join{
+    background-color: white;
+    color:blue;
+    border: 1px solid blue;
+    height: 50px ;
+    width: 100px;
+    transition: background-color 0.2s , color 0.2s;
+}
+#join:hover{
+    color: white;
+    background-color:blue;   
+}
+#join:active{
+    opacity:0.5;
+}
+button{
+    cursor:pointer;
+}

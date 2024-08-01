@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            
+            border-radius: 30px;
+            cursor: pointer;
+        }
+        .apply{
+            background-color: rgb(43, 43, 219);
+            color: white;
+            font: bold;
+            font-size: medium;
+            padding-left: 30px;
+            padding-top: 13px;
+            padding-bottom: 13px;
+            padding-right: 30px;
+        }
+        .apply:hover{
+            background-color: rgb(46, 46, 182);
+        }
+        .save{
+            background-color: white;
+            color: rgb(43, 43, 219);
+            font:bold;
+            font-size: medium;
+            border-color: rgb(43, 43, 219);
+            padding-left: 30px;
+            padding-top: 13px;
+            padding-bottom: 13px;
+            padding-right: 30px;
+        }
+        .save:hover{
+            font-style: oblique;
+            border-width: 4px;
+            background-color: rgb(228,246,248);
+            opacity: 0.7;
+            padding-top: 26px;
+        }
+        #apply{
+            vertical-align: top;
+        }
+    </style>
+</head>
+<body>
+    <p style="width: 600px;">hover mouse on Save button.With padding the text moves below and browser tries to align the text causing the apply button to move</p>
+    <button class="apply">Apply on company website</button>
+    <button class="save">Save</button>
+    <p>with vertical-align set to top:</p>
+    <button class="apply" id="apply">Apply on company website</button>
+    <button class="save">Save</button>
+</body>
+</html>
