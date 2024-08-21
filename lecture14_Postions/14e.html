@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: #000;
+        }
+        #first{
+            display: flex;
+            flex: 1;
+            padding-left: 30px;
+        }
+        img{
+            width: 45px;
+            height: 45px;
+            object-fit: fill;
+            object-position: center;
+            border-radius:22px ;
+            margin-right: 10px;
+        }
+        div{
+            display: flex;
+        }
+        #second-container{
+            flex: 1;
+            padding-left:900px;
+            align-items: center;
+        }
+        .main{
+            position: fixed;
+            top: 2px;
+            left: 0;
+            right: 0;
+            background-color: white;
+        }
+        button{
+            height: 30px;
+        }
+        .btn1{
+            background-color: rgb(49, 49, 224); border-radius: 2px;
+            color: white;
+        }
+        .btn2{
+            color: black; background-color: rgb(179, 172, 172);border-radius: 2px;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body style="height: 800px;">
+    <div class="main">
+        <div id="first" >
+            <img src="https://media.licdn.com/dms/image/D4E12AQG0hyhZmq0AyQ/article-cover_image-shrink_600_2000/0/1700488940348?e=2147483647&v=beta&t=eZtDe_xSbm65L-mR1tnM8vnfMpM3aWcSe8rw8o7sjSs">
+            <p>Oliver Cat1</p>
+        </div>
+        <div id="second-container">
+            <button class="btn1">Add Friend</button>
+            <button class="btn2">Message</button>
+        </div>
+    </div>
+</body>
+</html>
